@@ -12,11 +12,11 @@
         "32bit": {
             "url": [
               "https://download.tortoisegit.org/tgit/2.5.0.0/TortoiseGit-2.5.0.0-32bit.msi",
-                "https://download.tortoisegit.org/tgit/2.5.0.0/TortoiseGit-LanguagePack-2.5.0.0-32bit-zh_CN.msi"
+               "https://download.tortoisegit.org/tgit/2.5.0.0/TortoiseGit-LanguagePack-2.5.0.0-32bit-zh_CN.msi"
             ]
         }
     },
-    "extract_dir": "tortoisegit",
+    "extract_dir": ["Program Files\\TortoiseGit", "Program Files\\TortoiseGit"],
     "env_add_path": "bin",
     "checkver": {
         "url": "https://tortoisegit.org/download/",
